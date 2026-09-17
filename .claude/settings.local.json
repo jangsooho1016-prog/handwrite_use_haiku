@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python *)",
+      "Bash(pip install *)",
+      "Bash(python3 *)",
+      "Bash(Remove-Item -Path \"digit_model.pkl\", \"scaler.pkl\" -ErrorAction SilentlyContinue)",
+      "Bash(Get-ChildItem)",
+      "Bash(pkill -f \"python main.py\")",
+      "Bash(rm -f digit_model.pkl scaler.pkl)"
+    ]
+  }
+}
